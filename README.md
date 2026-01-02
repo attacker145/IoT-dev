@@ -55,3 +55,85 @@ If you want to know exactly what your cellular hardware is doing—and be able t
 ├── MSP Debuggers User's Guide.pdf
 ├── MSP430F5529 LaunchPad Development Kit User's Guide and Sch.pdf
 └── 
+
+
+*(Directory structure may evolve as the project matures.)*
+
+---
+
+## Hardware Status
+
+- Board revision: **In development**
+- Electrical bring-up: **Ongoing**
+- LTE modem support: **Airgain modules (initial focus)**
+- Field testing: **Planned**
+
+Progress, design tradeoffs, and lessons learned are documented on **Hackaday.io**.
+
+---
+
+## Firmware Philosophy
+
+Firmware is intentionally kept:
+- **Readable**
+- **Deterministic**
+- **Easy to modify**
+
+No cloud dependency, no hidden state machines, no magic.  
+Just clear modem control, power management, and data handling.
+
+---
+
+## Intended Applications
+
+- Remote monitoring & telemetry
+- Industrial control and data logging
+- Field-deployed sensors
+- Cellular backhaul for embedded systems
+- Educational and reference LTE designs
+
+---
+
+## Getting Started
+
+1. Review the hardware schematics in `IoT_Dev_v0.00`
+2. Read the bring-up notes in `/docs`
+3. Build and flash the MSP430 firmware
+4. Install a supported **Airgain LTE modem** and antenna
+5. Start hacking
+
+More detailed bring-up instructions will be added as the project stabilizes.
+
+---
+
+## License
+
+- **Hardware:** TBD (intended open-hardware license)
+- **Firmware:** TBD (intended open-source license)
+
+Licensing will be finalized before the first stable release.
+
+---
+
+## Disclaimer
+
+This is an **engineering-focused project**. It assumes familiarity with:
+- Embedded systems
+- Cellular modems
+- Power-sensitive hardware design
+
+Use at your own risk—especially in certified or safety-critical systems.
+
+---
+
+## Contributing
+
+I want you to know that contributions, issues, and discussions are welcome.  
+Design feedback from engineers deploying hardware in real-world environments is especially encouraged.
+
+---
+
+## Author
+
+Designed and developed by an engineer with a background in **industrial, medical, and IoT embedded systems**, with an emphasis on reliability and long-term deployment.
+
