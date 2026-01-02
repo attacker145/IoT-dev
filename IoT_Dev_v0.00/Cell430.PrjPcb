@@ -115,7 +115,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=ETRVNHAH
 
 [Document5]
 DocumentPath=LTE_UART_USB_adapter.SchDoc
@@ -132,7 +132,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=CHTYMDBX
 
 [Document6]
 DocumentPath=LTE-To-Serial-Adapter.PcbDoc
